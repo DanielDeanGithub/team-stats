@@ -19,6 +19,10 @@ const team = {
         let player = { firstName: newFirstName, lastName: newLastName, age: newAge }
         this.players.push(player);
     },
+    addGame(newOpponent, newTeamPoints, newOpponentPoints) {
+        let game = { opponent: newOpponent, teamPoints: newTeamPoints, opponentPoints: newOpponentPoints }
+        this.games.push(game);
+    }
 };
 
 team.addPlayer('Bugs', 'Bunny', 76);
