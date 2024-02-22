@@ -20,3 +20,6 @@ const team = {
         this.players.push(player);
     },
 };
+
+team.addPlayer('Bugs', 'Bunny', 76);
+console.log(team.players);
