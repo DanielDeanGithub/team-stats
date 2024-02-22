@@ -9,4 +9,7 @@ const team = {
         { opponent: 'Sapphire Sisters', teamPoints: 19, opponentPoints: 23 },
         { opponent: 'Celestial Challengers', teamPoints: 26, opponentPoints: 18 }
     ],
+    get players() {
+        return this._players;
+    },
 };
